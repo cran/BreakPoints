@@ -1,0 +1,13 @@
+importFrom(zoo, rollapply)
+importFrom(MASS, fitdistr)
+importFrom("stats", "ecdf", "qt", "rgamma", "rnorm", "sd", "t.test",
+               "wilcox.test")
+
+export(Buishand_R)
+export(pettit)
+export(SNHT)
+export(stu)
+export(man.whi)
+export(N_break_point)
+export(sum_yam)
+export(yamamoto)
